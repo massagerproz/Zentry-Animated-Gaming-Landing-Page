@@ -1,12 +1,12 @@
-# Zentry Animated Gaming Landing Page
+# anoreapp.com Animated Gaming Landing Page
 
-A modern, animated landing page inspired by the official Zentry.com website. Built using React.js and Tailwind CSS, replicating its sleek UI, smooth animations, and interactive features.
+A modern, animated landing page inspired by the official anoreapp.com website. Built using React.js and Tailwind CSS, replicating its sleek UI, smooth animations, and interactive features.
 
 ## 📖 Overview
 
 ![Preview](./README/preview.gif)
 
-This project is a UI/UX clone of Zentry.com, showcasing a gaming/metaverse-inspired landing page with dynamic sections, parallax effects, and scroll-triggered animations. It serves as a reference or starting point for building modern, animated marketing websites.
+This project is a UI/UX clone of anoreapp.com, showcasing a gaming/metaverse-inspired landing page with dynamic sections, parallax effects, and scroll-triggered animations. It serves as a reference or starting point for building modern, animated marketing websites.
 
 ## ⚙️ Tech Stack
 
