@@ -1,0 +1,3 @@
+## 2024-07-01 - High-frequency event handlers causing React re-renders
+**Learning:** Using `useState` to track `mousemove` coordinates (e.g. for parallax or hover effects) causes rapid, continuous React re-renders which blocks the main thread. This codebase has instances like `BentoTilt` where mouse events are triggering state updates instead of direct DOM manipulation.
+**Action:** Use `useRef` to maintain references to elements and apply updates directly (e.g., `ref.current.style.transform = ...`) in high-frequency event handlers like `mousemove` and `scroll` instead of triggering component state updates.
