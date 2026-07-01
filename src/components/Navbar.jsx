@@ -104,6 +104,8 @@ const NavBar = () => {
             <button
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"
+              aria-label={isAudioPlaying ? 'Pause audio' : 'Play audio'}
+              title="Toggle audio"
             >
               <audio
                 ref={audioElementRef}
